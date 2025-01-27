@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A3C10F2D2EF3800050243F /* CustomConfirmButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3C10E2D2EF3800050243F /* CustomConfirmButtonApp.swift */; };
+		08A3C1112D2EF3800050243F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3C1102D2EF3800050243F /* ContentView.swift */; };
+		08A3C1132D2EF3840050243F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A3C1122D2EF3840050243F /* Assets.xcassets */; };
+		08A3C1162D2EF3840050243F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A3C1152D2EF3840050243F /* Preview Assets.xcassets */; };
+		08A3C11D2D2F0E8A0050243F /* CustomConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3C11C2D2F0E8A0050243F /* CustomConfirmButton.swift */; };
+		08A3C1202D39B4F50050243F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 08A3C11F2D39B4F50050243F /* Lottie */; };
+		08A3C1222D39B4F50050243F /* Lottie-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 08A3C1212D39B4F50050243F /* Lottie-Dynamic */; };
+		08A3C1292D39B9C00050243F /* party_popper.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A3C1282D39B9C00050243F /* party_popper.json */; };
+		08E449E02D46FC12007E7EBD /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E449DF2D46FC12007E7EBD /* Style.swift */; };
+		08E449E22D470307007E7EBD /* party_poppers_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 08E449E12D470307007E7EBD /* party_poppers_light.json */; };
+		08E449E42D4761D6007E7EBD /* CustomConfirmButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E449E32D4761D6007E7EBD /* CustomConfirmButtonBorder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08A3C10B2D2EF3800050243F /* CustomConfirmButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomConfirmButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A3C10E2D2EF3800050243F /* CustomConfirmButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConfirmButtonApp.swift; sourceTree = "<group>"; };
+		08A3C1102D2EF3800050243F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08A3C1122D2EF3840050243F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08A3C1152D2EF3840050243F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08A3C11C2D2F0E8A0050243F /* CustomConfirmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConfirmButton.swift; sourceTree = "<group>"; };
+		08A3C1282D39B9C00050243F /* party_popper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = party_popper.json; sourceTree = "<group>"; };
+		08E449DF2D46FC12007E7EBD /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		08E449E12D470307007E7EBD /* party_poppers_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = party_poppers_light.json; sourceTree = "<group>"; };
+		08E449E32D4761D6007E7EBD /* CustomConfirmButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConfirmButtonBorder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A3C1082D2EF3800050243F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3C1202D39B4F50050243F /* Lottie in Frameworks */,
+				08A3C1222D39B4F50050243F /* Lottie-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A3C1022D2EF3800050243F = {
+			isa = PBXGroup;
+			children = (
+				08A3C10D2D2EF3800050243F /* CustomConfirmButton */,
+				08A3C10C2D2EF3800050243F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A3C10C2D2EF3800050243F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A3C10B2D2EF3800050243F /* CustomConfirmButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A3C10D2D2EF3800050243F /* CustomConfirmButton */ = {
+			isa = PBXGroup;
+			children = (
+				08A3C10E2D2EF3800050243F /* CustomConfirmButtonApp.swift */,
+				08A3C1102D2EF3800050243F /* ContentView.swift */,
+				08E449E52D476256007E7EBD /* Views */,
+				08A3C1122D2EF3840050243F /* Assets.xcassets */,
+				08A3C1232D39B7370050243F /* Resources */,
+				08A3C1142D2EF3840050243F /* Preview Content */,
+			);
+			path = CustomConfirmButton;
+			sourceTree = "<group>";
+		};
+		08A3C1142D2EF3840050243F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08A3C1152D2EF3840050243F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08A3C1232D39B7370050243F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08E449E12D470307007E7EBD /* party_poppers_light.json */,
+				08A3C1282D39B9C00050243F /* party_popper.json */,
+				08E449DF2D46FC12007E7EBD /* Style.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08E449E52D476256007E7EBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08E449E32D4761D6007E7EBD /* CustomConfirmButtonBorder.swift */,
+				08A3C11C2D2F0E8A0050243F /* CustomConfirmButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A3C10A2D2EF3800050243F /* CustomConfirmButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A3C1192D2EF3840050243F /* Build configuration list for PBXNativeTarget "CustomConfirmButton" */;
+			buildPhases = (
+				08A3C1072D2EF3800050243F /* Sources */,
+				08A3C1082D2EF3800050243F /* Frameworks */,
+				08A3C1092D2EF3800050243F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomConfirmButton;
+			packageProductDependencies = (
+				08A3C11F2D39B4F50050243F /* Lottie */,
+				08A3C1212D39B4F50050243F /* Lottie-Dynamic */,
+			);
+			productName = CustomConfirmButton;
+			productReference = 08A3C10B2D2EF3800050243F /* CustomConfirmButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A3C1032D2EF3800050243F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					08A3C10A2D2EF3800050243F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 08A3C1062D2EF3800050243F /* Build configuration list for PBXProject "CustomConfirmButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08A3C1022D2EF3800050243F;
+			packageReferences = (
+				08A3C11E2D39B4F50050243F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 08A3C10C2D2EF3800050243F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A3C10A2D2EF3800050243F /* CustomConfirmButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A3C1092D2EF3800050243F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3C1162D2EF3840050243F /* Preview Assets.xcassets in Resources */,
+				08A3C1132D2EF3840050243F /* Assets.xcassets in Resources */,
+				08A3C1292D39B9C00050243F /* party_popper.json in Resources */,
+				08E449E22D470307007E7EBD /* party_poppers_light.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A3C1072D2EF3800050243F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3C1112D2EF3800050243F /* ContentView.swift in Sources */,
+				08A3C10F2D2EF3800050243F /* CustomConfirmButtonApp.swift in Sources */,
+				08E449E42D4761D6007E7EBD /* CustomConfirmButtonBorder.swift in Sources */,
+				08E449E02D46FC12007E7EBD /* Style.swift in Sources */,
+				08A3C11D2D2F0E8A0050243F /* CustomConfirmButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08A3C1172D2EF3840050243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08A3C1182D2EF3840050243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A3C11A2D2EF3840050243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomConfirmButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LL525MA3L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliofernandez.CustomConfirmButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A3C11B2D2EF3840050243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomConfirmButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LL525MA3L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliofernandez.CustomConfirmButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A3C1062D2EF3800050243F /* Build configuration list for PBXProject "CustomConfirmButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A3C1172D2EF3840050243F /* Debug */,
+				08A3C1182D2EF3840050243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A3C1192D2EF3840050243F /* Build configuration list for PBXNativeTarget "CustomConfirmButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A3C11A2D2EF3840050243F /* Debug */,
+				08A3C11B2D2EF3840050243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08A3C11E2D39B4F50050243F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08A3C11F2D39B4F50050243F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08A3C11E2D39B4F50050243F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		08A3C1212D39B4F50050243F /* Lottie-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08A3C11E2D39B4F50050243F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = "Lottie-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08A3C1032D2EF3800050243F /* Project object */;
+}
