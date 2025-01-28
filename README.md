@@ -1,5 +1,5 @@
 # Custom Confirm Button
-Custom button with a dynamic and fun touch when interacting with it. Lottie files were used so that, upon tapping the button, it performs an action and plays an animation, resulting in a simple yet visually appealing design.
+🎉 button with a dynamic and fun touch when interacting with it. Lottie files were used so that, upon tapping the button, it performs an action and plays an animation, resulting in a simple yet visually appealing design.
 
 Support by:
 
